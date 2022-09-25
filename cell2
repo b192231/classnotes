@@ -1,0 +1,7 @@
+<html>
+<table border="2">
+<tr><td>one</td><td>two</td><td rowspan="2">This cell spans two rows</tr>
+<tr><td>four</td><td>five</td></tr>
+<tr><td>seven</td><td>eight</td><td>nine</td></tr>
+</table>
+</html>

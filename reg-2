@@ -1,0 +1,51 @@
+<html>
+<head><title>Homepage</title></head>
+<style>
+#myDIV {
+  width:55%;
+  height:550px;
+  background-color:#FFFFFF;
+  border:solid black;}
+  </style>
+<body >
+<form>
+<div id="myDIV">
+<input type="radio"  name="Gender" value="Mr">
+<label for="Mr">Mr</label>
+<input type="radio"  name="Gender" value="Mrs.">
+<label for="Mrs">Mrs</label>
+<input type="radio"  name="Gender" value="Ms.">
+<label for="Ms.">Ms.</label><br>
+Studentid:<input type="text" placeholder="StudentID" name="Student ID"><br>
+Firstname:<input type="text" placeholder="Firstname"  name="Firstname"><br>
+Lastname:<input type="text" placeholder="Lastname"  name="Lastname"><br>
+Username:<input type="text" placeholder="Username"  name="Username"><br>
+Password:<input type="text" placeholder="Password"  name="password"><br>
+Address:<textarea  input type="text" name="Adress" rows="4" cols="30"></textarea><br>
+city:<input type="text" name="City"><br>
+state:<select name="State" placeholder="Telangana">
+    <option value="Telangana">Telangana</option>
+    <option value="AndraPreadesh">Andrapradesh</option>
+    <option value="Maharastra">Maharastra</option>
+    <option value="Orrisa">Orrisa</option>
+  </select><br>
+Pincode:<input type="text" name="Pincode"><br>
+Upload Photo:<input type="file" id="Photo" value="choose a file"><br>
+Email"<input type="text" name="email"><br>
+Mobile:<input type="text" placeholder="+91"  name="Mobile"><br>
+LanguagesKnown<input type="checkbox" id="Languagesknown">
+  <label for="Languagesknown">English</label><br>
+  <input type="checkbox" id="Languagesknown">
+  <label for="Languagesknown">Telugu</label><br>
+  <input type="checkbox" id="Languagesknown">
+  <label for="Languagesknown">Hindi</label><br>
+  Additional info:<textarea input type="text" placeholder="Optional"  name="Additional info" rows="4" cols="30"></textarea><br>
+  <input type="checkbox" id="Languagesknown">
+  <label for="Languagesknown">Accepting the terms abd conditions</label><br>
+<input type="submit" name="Ok" value="SUBMIT">
+<input type="submit" name="No" value="Reset">
+</div>
+
+</form>
+</body>
+</html>
